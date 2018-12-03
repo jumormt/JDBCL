@@ -14,7 +14,7 @@ import com.mysql.jdbc.Driver;
 public class Hello {
 	@Test
 	public void f1(){
-		System.out.println("hello");
+		System.out.println("hellop");
 	}
 	
 	@Test
