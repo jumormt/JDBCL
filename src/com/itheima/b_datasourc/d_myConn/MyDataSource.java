@@ -43,7 +43,7 @@ public class MyDataSource {
 		 Connection conn = pool.removeFirst();
 		 //将conn进行包装 
 		 // ConnectionWarp myConn = new ConnectionWarp(conn);
-		 ConnectionWarp myConn = new ConnectionWarp(conn,pool);
+		 Connection myConn = new ConnectionWarp(conn,pool);
 		return myConn;
 	}
 	

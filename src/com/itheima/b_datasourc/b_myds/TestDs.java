@@ -10,7 +10,7 @@ public class TestDs {
 		
 		//获取连接
 		Connection conn=ds.getConnection();
-		System.out.println(conn);
+ 		System.out.println(conn);
 		
 		//归还连接
 		ds.addBack(conn);
