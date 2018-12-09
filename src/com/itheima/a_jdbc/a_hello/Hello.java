@@ -24,7 +24,7 @@ public class Hello {
 		DriverManager.registerDriver(new Driver());
 		
 		//获取连接 		ctrl+o 整理包
-		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/day07?serverTimezone=UTC", "chengxiao", "1234");
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/day07?serverTimezone=UTC", "test", "1234");
 		
 		//编写sql
 		String  sql="select * from category";

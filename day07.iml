@@ -74,15 +74,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../1-java学习/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../1-java学习/lib" recursive="false" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="junit:junit:4.12" level="application" />
   </component>
 </module>
