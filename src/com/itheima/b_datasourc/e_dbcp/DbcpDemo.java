@@ -23,8 +23,8 @@ public class DbcpDemo {
 		
 		//配置信息
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql:///day07");
-		ds.setUsername("root");
+		ds.setUrl("jdbc:mysql:///day07?serverTimezone=UTC");
+		ds.setUsername("test");
 		ds.setPassword("1234");
 		
 		Connection conn=ds.getConnection();

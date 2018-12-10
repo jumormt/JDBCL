@@ -18,8 +18,8 @@ public class C3p0Demo {
 		
 		//设置基本参数
 		ds.setDriverClass("com.mysql.jdbc.Driver");
-		ds.setJdbcUrl("jdbc:mysql:///day07");
-		ds.setUser("root");
+		ds.setJdbcUrl("jdbc:mysql:///day07?serverTimezone=UTC");
+		ds.setUser("test");
 		ds.setPassword("1234");
 		
 		Connection conn=ds.getConnection();

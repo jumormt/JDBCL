@@ -4,7 +4,7 @@
 		<!-- 基本配置 -->
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/day07?serverTimezone=UTC</property>
-		<property name="user">root</property>
+		<property name="user">test</property>
 		<property name="password">1234</property>
 	
 		<!--扩展配置-->
