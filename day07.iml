@@ -19,6 +19,17 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.39-bin.jar">
+        <CLASSES>
+          <root url="file://lib/mysql-connector-java-5.1.39-bin.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://G:/day07-jdbc/resource/jar/驱动/mysql-connector-java-5.1.39/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="commons-dbcp-1.4.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/commons-dbcp-1.4.jar!/" />
@@ -65,15 +76,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-8.0.13.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="junit:junit:4.12" level="application" />
   </component>
 </module>
